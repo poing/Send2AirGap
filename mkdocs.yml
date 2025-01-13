@@ -1,4 +1,4 @@
-site_name: send2airgap
+site_name: Send 2 Air-Gap
 #theme: readthedocs
 theme:
   name: material
@@ -58,7 +58,7 @@ plugins:
 #  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 
 repo_url: https://github.com/poing/Send2AirGap
-repo_name: poing/Send2AirGap
+repo_name: poing/send2airgap
 #extra_css:
 #  - stylesheets/extra.css
 docs_dir: docs_source
