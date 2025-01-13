@@ -43,7 +43,7 @@ setup(
     long_description_content_type="text/markdown",
     author="Brian LaVallee",
     author_email="brian.lavallee@invite-comm.jp",
-	python_requires='>=3.11',
+	python_requires='>=3.13',
     keywords=[
         "air gap", 
         "air gapped", 
@@ -83,7 +83,7 @@ setup(
 		"Intended Audience :: Developers",
 		"Intended Audience :: Information Technology",
 		"License :: OSI Approved :: MIT License",
-		"Programming Language :: Python :: 3.11",
+		"Programming Language :: Python :: 3.13",
         'Intended Audience :: Other Audience',
         'Intended Audience :: System Administrators',
         'Intended Audience :: Telecommunications Industry',
