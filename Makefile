@@ -76,16 +76,19 @@ virtualenv:       ## Create a virtual environment.
 
 .PHONY: release
 release:          ## Create a new tag for release.
-	@echo "WARNING: This operation will create s version tag and push to github"
-	@read -p "Version? (provide the next x.y.z semver) : " TAG
-	@echo $${TAG} > send2airgap/VERSION
-	@$(ENV_PREFIX)gitchangelog > HISTORY.md
-	@git add send2airgap/VERSION HISTORY.md
-	@git commit -m "release: version $${TAG} 🚀"
-	@echo "creating git tag : $${TAG}"
-	@git tag $${TAG}
-	@git push -u origin HEAD --tags
-	@echo "Github Actions will detect the new tag and release the new version."
+	@echo "WARNING: This operation will create a version tag and push to GitHub"
+	@read -p "Version? (provide the next x.y.z semver): " TAG; \
+	 echo $$TAG > send2airgap/VERSION; \
+	 echo "Version written to send2airgap/VERSION: $$TAG"; \
+	 $(ENV_PREFIX)gitchangelog > HISTORY.md; \
+	 git add send2airgap/VERSION HISTORY.md; \
+	 git commit -m "release: version $$TAG 🚀"; \
+	 echo "Creating git tag: $$TAG"; \
+	 git tag $$TAG; \
+	 git push -u origin HEAD --tags; \
+	 echo "GitHub Actions will detect the new tag and release the new version."
+
+
 
 .PHONY: docs
 docs:             ## Build the documentation.

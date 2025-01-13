@@ -32,7 +32,7 @@ def read_requirements(path):
 setup(
     name="send2airgap",
     version=read("send2airgap", "VERSION"),
-    description=" A Python package enabling the secure transfer of data between an insecure sender and an air-gapped computer equipped with a camera. ",
+    description="A Python package enabling the secure transfer of data from an insecure sender to an air-gapped computer equipped with a camera.",
     url="https://github.com/poing/Send2AirGap/",
     project_urls={
         'Documentation': 'https://poing.github.io/Send2AirGap',
