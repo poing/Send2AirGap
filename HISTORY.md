@@ -2,8 +2,9 @@ Changelog
 =========
 
 
-(unreleased)
-------------
+0.1.1 (2025-01-13)
+------------------
+- Release: version 0.1.1 🚀 [poing]
 - Release: version  🚀 [poing]
 - Setting up the basics. [poing]
 - Setting up the basics. [poing]
