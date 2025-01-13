@@ -1,12 +1,6 @@
 Changelog
 =========
 
-
-(unreleased)
-------------
-- Update LICENSE. [Brian LaVallee]
-
-
 0.0.0 (2025-01-13)
 ------------------
 - Bump actions/setup-python from 4 to 5 (#2) [dependabot[bot],

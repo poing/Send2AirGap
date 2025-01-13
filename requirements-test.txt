@@ -8,3 +8,7 @@ pytest-cov
 mypy
 gitchangelog
 mkdocs
+mkdocs-material
+faker
+pymdown-extensions
+mkdocs-material[imaging]

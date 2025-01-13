@@ -32,7 +32,7 @@ fmt:              ## Format code using black & isort.
 
 .PHONY: lint
 lint:             ## Run pep8, black, mypy linters.
-	$(ENV_PREFIX)flake8 send2airgap/
+	$(ENV_PREFIX)flake8 --per-file-ignores="__init__.py:F401" send2airgap/
 	$(ENV_PREFIX)black -l 79 --check send2airgap/
 	$(ENV_PREFIX)black -l 79 --check tests/
 	$(ENV_PREFIX)mypy --ignore-missing-imports send2airgap/
@@ -76,22 +76,25 @@ virtualenv:       ## Create a virtual environment.
 
 .PHONY: release
 release:          ## Create a new tag for release.
-	@echo "WARNING: This operation will create s version tag and push to github"
-	@read -p "Version? (provide the next x.y.z semver) : " TAG
-	@echo "$${TAG}" > send2airgap/VERSION
-	@$(ENV_PREFIX)gitchangelog > HISTORY.md
-	@git add send2airgap/VERSION HISTORY.md
-	@git commit -m "release: version $${TAG} 🚀"
-	@echo "creating git tag : $${TAG}"
-	@git tag $${TAG}
-	@git push -u origin HEAD --tags
-	@echo "Github Actions will detect the new tag and release the new version."
+	@echo "WARNING: This operation will create a version tag and push to GitHub"
+	@read -p "Version? (provide the next x.y.z semver): " TAG; \
+	 echo $$TAG > send2airgap/VERSION; \
+	 echo "Version written to send2airgap/VERSION: $$TAG"; \
+	 $(ENV_PREFIX)gitchangelog > HISTORY.md; \
+	 git add send2airgap/VERSION HISTORY.md; \
+	 git commit -m "release: version $$TAG 🚀"; \
+	 echo "Creating git tag: $$TAG"; \
+	 git tag $$TAG; \
+	 git push -u origin HEAD --tags; \
+	 echo "GitHub Actions will detect the new tag and release the new version."
+
+
 
 .PHONY: docs
 docs:             ## Build the documentation.
 	@echo "building documentation ..."
 	@$(ENV_PREFIX)mkdocs build
-	URL="site/index.html"; xdg-open $$URL || sensible-browser $$URL || x-www-browser $$URL || gnome-open $$URL || open $$URL
+	URL="docs/index.html"; xdg-open $$URL || sensible-browser $$URL || x-www-browser $$URL || gnome-open $$URL || open $$URL
 
 .PHONY: switch-to-poetry
 switch-to-poetry: ## Switch to poetry package manager.
