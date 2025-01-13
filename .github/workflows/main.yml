@@ -48,9 +48,11 @@ jobs:
         run: make install
       - name: Run tests
         run: make test
-      - name: "Upload coverage to Codecov"
+      - name: Upload results to Codecov
         uses: codecov/codecov-action@v5
-        # with:
+        with:
+          token: ${{ secrets.CODECOV_TOKEN }}
+          slug: poing/Send2AirGap        # with:
         #   fail_ci_if_error: true
 
   tests_mac:
