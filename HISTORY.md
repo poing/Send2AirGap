@@ -4,6 +4,7 @@ Changelog
 
 (unreleased)
 ------------
+- Release: version  🚀 [poing]
 - Setting up the basics. [poing]
 - Setting up the basics. [poing]
 - Setting up the basics. [poing]
