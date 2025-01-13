@@ -60,7 +60,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        python-version: [3.9]
+        python-version: [3.11]
         os: [macos-latest]
     runs-on: ${{ matrix.os }}
     steps:
@@ -78,7 +78,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        python-version: [3.9]
+        python-version: [3.11]
         os: [windows-latest]
     runs-on: ${{ matrix.os }}
     steps:
