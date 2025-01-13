@@ -53,7 +53,8 @@ See also
 ---
 # send2airgap
 
-[![codecov](https://codecov.io/gh/poing/Send2AirGap/branch/main/graph/badge.svg?token=Send2AirGap_token_here)](https://codecov.io/gh/poing/Send2AirGap)
+[![codecov](https://codecov.io/gh/poing/Send2AirGap/graph/badge.svg?token=LTQYLRKJ6M)](https://codecov.io/gh/poing/Send2AirGap)
+
 [![CI](https://github.com/poing/Send2AirGap/actions/workflows/main.yml/badge.svg)](https://github.com/poing/Send2AirGap/actions/workflows/main.yml)
 
 Awesome send2airgap created by poing
