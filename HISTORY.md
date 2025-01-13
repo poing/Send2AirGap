@@ -1,31 +1,6 @@
 Changelog
 =========
 
-
-(unreleased)
-------------
-- Setting up the basics. [poing]
-- Release: version 0.0.0 🚀 [poing]
-- Release: version 0.1.1 🚀 [poing]
-- Release: version  🚀 [poing]
-- Setting up the basics. [poing]
-- Setting up the basics. [poing]
-- Setting up the basics. [poing]
-- Setting up the basics. [poing]
-- Release: version  🚀 [poing]
-- Setting up the basics. [poing]
-- Setting up the basics. [poing]
-- Setting up the basics. [poing]
-- Setting up the basics. [poing]
-- Setting up the basics. [poing]
-- Setting up the basics. [poing]
-- Setting up the basics. [poing]
-- Setting up the basics. [poing]
-- Setting up the basics. [poing]
-- Setting up the basics. [poing]
-- Setting up the basics. [poing]
-
-
 0.0.0 (2025-01-13)
 ------------------
 - Bump actions/setup-python from 4 to 5 (#2) [dependabot[bot],
