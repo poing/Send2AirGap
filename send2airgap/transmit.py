@@ -1,2 +1,3 @@
-def transmit():
-    print("This is function transmit")
+# Generic Test
+def foo():
+    return "bar"

@@ -1,2 +1,3 @@
-def receive():
-    print("This is function receive")
+# Generic Test
+def foo():
+    return "bar"
