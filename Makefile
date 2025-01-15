@@ -32,7 +32,7 @@ fmt:              ## Format code using black & isort.
 
 .PHONY: lint
 lint:             ## Run pep8, black, mypy linters.
-	$(ENV_PREFIX)flake8 --per-file-ignores="__init__.py:F401" send2airgap/
+	$(ENV_PREFIX)flake8 --per-file-ignores="__init__.py:F401" --per-file-ignores="backend.py:E203" send2airgap/
 	$(ENV_PREFIX)black -l 79 --check send2airgap/
 	$(ENV_PREFIX)black -l 79 --check tests/
 	$(ENV_PREFIX)mypy --ignore-missing-imports send2airgap/

@@ -3,3 +3,31 @@
 # Add the requirements you need to this file.
 # or run `make init` to create this file automatically based on the template.
 # You can also run `make switch-to-poetry` to use the poetry package manager.
+
+# Required for the Front End
+opencv-python
+pillow
+python-barcode
+qrcode
+requests
+types-requests
+
+# Required for the Receiver
+opencv-python
+tqdm
+
+#ast
+#base64
+#datetime
+#hashlib
+#json
+#os
+#PIL
+#random
+#requests
+#barcode
+#code128
+# numpy
+# setuptools
+# tqdm
+
