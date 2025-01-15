@@ -1,6 +1,237 @@
 Changelog
 =========
 
+
+(unreleased)
+------------
+- Getting the prototype structure in place. [poing]
+- Initial and basic testing. [poing]
+- Update docs? [poing]
+- Dealing with commit and branch conflict. [poing]
+
+
+0.0.2 (2025-01-13)
+------------------
+- Release: version 0.0.2 🚀 [poing]
+- Disabled tests_win. [poing]
+- 0.0.2 (#10) [Brian LaVallee]
+- 0.1.0 (#9) [Brian LaVallee]
+
+  * Setting up the basics
+
+  * Setting up the basics
+
+  * Setting up the basics
+
+  * Setting up the basics
+
+  * Setting up the basics
+
+  * Setting up the basics
+
+  * Setting up the basics
+
+  * Setting up the basics
+
+  * Setting up the basics
+
+  * Setting up the basics
+
+  * Setting up the basics
+
+  * release: version  🚀
+
+  * Setting up the basics
+
+  * Setting up the basics
+
+  * Setting up the basics
+
+  * Setting up the basics
+
+  * release: version  🚀
+
+  * release: version 0.1.1 🚀
+
+  * release: version 0.0.0 🚀
+
+  * Setting up the basics
+
+  * release: version 0.0.1 🚀
+
+  * Setting up the basics
+
+  * Setting up the basics
+- 0.1.0 (#8) [Brian LaVallee]
+
+  * Setting up the basics
+
+  * Setting up the basics
+
+  * Setting up the basics
+
+  * Setting up the basics
+
+  * Setting up the basics
+
+  * Setting up the basics
+
+  * Setting up the basics
+
+  * Setting up the basics
+
+  * Setting up the basics
+
+  * Setting up the basics
+
+  * Setting up the basics
+
+  * release: version  🚀
+
+  * Setting up the basics
+
+  * Setting up the basics
+
+  * Setting up the basics
+
+  * Setting up the basics
+
+  * release: version  🚀
+
+  * release: version 0.1.1 🚀
+
+  * release: version 0.0.0 🚀
+
+  * Setting up the basics
+
+  * release: version 0.0.1 🚀
+
+  * Setting up the basics
+
+  * Setting up the basics
+- 0.1.0 (#7) [Brian LaVallee]
+
+  * Setting up the basics
+
+  * Setting up the basics
+
+  * Setting up the basics
+
+  * Setting up the basics
+
+  * Setting up the basics
+
+  * Setting up the basics
+
+  * Setting up the basics
+
+  * Setting up the basics
+
+  * Setting up the basics
+
+  * Setting up the basics
+
+  * Setting up the basics
+
+  * release: version  🚀
+
+  * Setting up the basics
+
+  * Setting up the basics
+
+  * Setting up the basics
+
+  * Setting up the basics
+
+  * release: version  🚀
+
+  * release: version 0.1.1 🚀
+
+  * release: version 0.0.0 🚀
+
+  * Setting up the basics
+
+  * release: version 0.0.1 🚀
+
+  * Setting up the basics
+
+  * Setting up the basics
+- 0.1.0 (#6) [Brian LaVallee]
+
+  * Setting up the basics
+
+  * Setting up the basics
+
+  * Setting up the basics
+
+  * Setting up the basics
+
+  * Setting up the basics
+
+  * Setting up the basics
+
+  * Setting up the basics
+
+  * Setting up the basics
+
+  * Setting up the basics
+
+  * Setting up the basics
+
+  * Setting up the basics
+
+  * release: version  🚀
+
+  * Setting up the basics
+
+  * Setting up the basics
+
+  * Setting up the basics
+
+  * Setting up the basics
+
+  * release: version  🚀
+
+  * release: version 0.1.1 🚀
+
+  * release: version 0.0.0 🚀
+
+  * Setting up the basics
+
+  * release: version 0.0.1 🚀
+
+  * Setting up the basics
+
+  * Setting up the basics
+- Release: version  🚀 [poing]
+- Update LICENSE. [Brian LaVallee]
+
+
+0.0.1 (2025-01-13)
+------------------
+- Release: version 0.0.1 🚀 [poing]
+- Setting up the basics. [poing]
+- Release: version 0.0.0 🚀 [poing]
+- Release: version 0.1.1 🚀 [poing]
+- Release: version  🚀 [poing]
+- Setting up the basics. [poing]
+- Setting up the basics. [poing]
+- Setting up the basics. [poing]
+- Setting up the basics. [poing]
+- Release: version  🚀 [poing]
+- Setting up the basics. [poing]
+- Setting up the basics. [poing]
+- Setting up the basics. [poing]
+- Setting up the basics. [poing]
+- Setting up the basics. [poing]
+- Setting up the basics. [poing]
+- Setting up the basics. [poing]
+- Setting up the basics. [poing]
+- Setting up the basics. [poing]
+- Setting up the basics. [poing]
+- Setting up the basics. [poing]
+
+
 0.0.0 (2025-01-13)
 ------------------
 - Bump actions/setup-python from 4 to 5 (#2) [dependabot[bot],
