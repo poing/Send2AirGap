@@ -24,6 +24,7 @@ extra:
 markdown_extensions:
   - admonition
   - attr_list
+  - def_list
   - md_in_html
   - pymdownx.arithmatex:
         generic: true
@@ -68,3 +69,4 @@ docs_dir: docs_source
 site_dir: docs
 nav:
   - About: index.md    
+  - MkDocs: mkdocs.md    

@@ -1,18 +1,20 @@
-# Welcome to MkDocs
+# Send2AirGap
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+A unidirectional __data diode__ communication package.
 
-## Commands
+`data diode`
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+: A unidirectional network communication that enables the safe, one-way transfer of data between segmented networks. Data diode design maintains physical and electrical separation of source and destination networks, establishing a non-routable, completely closed one-way data transfer between networks. 
 
-## Project layout
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+Provides `data` to an air-gapped system.
 
+
+<div class="grid cards" markdown>
+
+- :fontawesome-solid-video:{ .lg .middle} __Secure System__ to receive
+- :material-qrcode:{ .lg .middle} __Unsecure System__ to transmit
+- :material-barcode:{ .lg .middle} __receipt__ this
+- :material-barcode-scan:{ .lg .middle} __ack__ that
+
+</div>
