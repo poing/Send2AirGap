@@ -18,3 +18,13 @@ Provides `data` to an air-gapped system.
 - :material-barcode-scan:{ .lg .middle} __ack__ that
 
 </div>
+
+
+:svgrepo-python:{ .lg .middle}
+:pillow:{ .lg .middle}
+:opencv:{ .lg .middle}
+:simple-tqdm:{ .lg .middle}
+:fontawesome-solid-barcode:{ .lg .middle}
+:material-qrcode:{ .lg .middle}
+:svgrepo-numpy:{ .lg .middle}
+
