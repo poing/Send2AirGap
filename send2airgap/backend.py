@@ -34,7 +34,7 @@ class Backend:
         self.queue = []
 
     # self.after(22000, lambda: alt_image(root))
-    
+
     def mock_test(self):
         self.gui.qr_image.configure(image="aaa")
         return "aaaa"
@@ -42,7 +42,7 @@ class Backend:
     def alt_image(self):
         # self.qr_image.place(x=root.winfo_height(), y=root.winfo_width())
         self.gui.image = Image.open("test_stamp.jpg")
-        #self.gui.photo = ImageTk.PhotoImage(self.image)
+        # self.gui.photo = ImageTk.PhotoImage(self.image)
         self.gui.photo = ImageTk.PhotoImage(self.gui.image)
         # self.qr_image = ttk.Label(root, image=self.photo)
         self.gui.qr_image.configure(image=self.photo)
